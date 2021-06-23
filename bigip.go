@@ -26,7 +26,7 @@ import (
 )
 
 var defaultConfigOptions = &ConfigOptions{
-	APICallTimeout: 60 * time.Second,
+	APICallTimeout: 600 * time.Second,
 }
 
 type ConfigOptions struct {
